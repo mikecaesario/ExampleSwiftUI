@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		161247F228229A7800622FD5 /* ExampleSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161247F128229A7800622FD5 /* ExampleSwiftUIApp.swift */; };
-		161247F428229A7800622FD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161247F328229A7800622FD5 /* ContentView.swift */; };
+		161247F428229A7800622FD5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161247F328229A7800622FD5 /* MainView.swift */; };
 		161247F628229A7A00622FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161247F528229A7A00622FD5 /* Assets.xcassets */; };
 		161247F928229A7A00622FD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161247F828229A7A00622FD5 /* Preview Assets.xcassets */; };
+		161248002824179D00622FD5 /* GuessTheNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161247FF2824179D00622FD5 /* GuessTheNumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		161247EE28229A7800622FD5 /* ExampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		161247F128229A7800622FD5 /* ExampleSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftUIApp.swift; sourceTree = "<group>"; };
-		161247F328229A7800622FD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		161247F328229A7800622FD5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		161247F528229A7A00622FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		161247F828229A7A00622FD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		161247FF2824179D00622FD5 /* GuessTheNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				161247F128229A7800622FD5 /* ExampleSwiftUIApp.swift */,
-				161247F328229A7800622FD5 /* ContentView.swift */,
+				161247F328229A7800622FD5 /* MainView.swift */,
+				161247FF2824179D00622FD5 /* GuessTheNumberView.swift */,
 				161247F528229A7A00622FD5 /* Assets.xcassets */,
 				161247F728229A7A00622FD5 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161247F428229A7800622FD5 /* ContentView.swift in Sources */,
+				161248002824179D00622FD5 /* GuessTheNumberView.swift in Sources */,
+				161247F428229A7800622FD5 /* MainView.swift in Sources */,
 				161247F228229A7800622FD5 /* ExampleSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
