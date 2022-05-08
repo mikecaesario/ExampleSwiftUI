@@ -114,7 +114,8 @@ struct SecondView_Previews: PreviewProvider {
 extension GuessTheNumberView {
     
     private func randomNumber() {
-        correctNumber = Int.random(in: 0...40)
+        // think i made some mistake here before lol
+        correctNumber = Int.random(in: 1...40)
     }
     
     private func calculate(number: Int) {
